@@ -24,11 +24,11 @@ It is your responsibility to familiarize yourself with the rules governing MRU l
 ## Run Git Bash
 Open up a terminal by clicking on the Start menu and typing "git". Git bash should be the first or second choice; click on it to run it.
 
-![Git-bash](img/00-run-git-bash.png)
+![Git-bash](00-run-git-bash.png)
 
 This will open up a deceptively unassuming little black window that looks like this:
 
-![command prompt](img/01-cmd-prompt.png)
+![command prompt](01-cmd-prompt.png)
 
 ## Bash commands: the basics
 Bash commands are actually **executable files** or **programs** that run when you type their name. Some can take **arguments**, which are things that you want the command to operate on. For example, try typing the following, and then hit Enter:
@@ -74,7 +74,7 @@ cd 1501
 
 If you are on the lab computer, you should see the **path** in your terminal change to show that you are now working in the 1501 directory. This is similar to the path that is shown in the Windows file browser (your H drive will be different from mine):
 
-![H-drive](img/01-h-drive.png)
+![H-drive](01-h-drive.png)
 
 > If you are working on a personal computer, you probably don't have a directory named 1501 and will see this message:
 ```plaintext
@@ -90,7 +90,7 @@ ls
 
 For example, I get the following output when I list the contents of my "Documents" directory:
 
-![ls output](img/01-ls-output.png)
+![ls output](01-ls-output.png)
 
 >Depending on your configuration, you might not see all the colours and decorations (`@` or `/`) on your output. To enable this, try adding the **flag** `-F` so that your command is now `ls -F`.
 
@@ -177,7 +177,7 @@ Try testing your knowledge at [cmdchallenge.com](https://cmdchallenge.com/)!
 ### Windows
 1. Install [Git for Windows](https://gitforwindows.org/), making sure to check the "Git Bash Here" option:
 
-![git-install](../images/01-git-bash-install.png)
+![git-install](01-git-bash-install.png)
 
 ### Mac
 Open the Terminal.app following [these instructions](https://www.howtogeek.com/682770/how-to-open-the-terminal-on-a-mac/).
