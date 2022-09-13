@@ -43,10 +43,10 @@ Keep your terminal open for the next part of this lab.
 1. In a web browser, [log in](https://github.com/login) to your GitHub account. If you haven't created one yet, do so now.
 2.  Accept the assignment invitation to join the classroom for the semester and clone today's starter code. Select your name from the roster to link your MRU username to your GitHub account. This is not set in stone, please let your instructor know if you have a different preferred name.
    
-    ![roster](../images/01-roster.png)
+    ![roster](../01-roster.png)
 
 3. Click on the "Code" button, then copy the URL from the pop-up window.
-    ![Code button](../images/01-clone-button.png)
+    ![Code button](../01-clone-button.png)
 
 4. In your terminal, run the following command:
 
@@ -67,7 +67,7 @@ Keep your terminal open for the next part of this lab.
 
 2. Go back to your terminal and check out the **status** of your current directory with the command `git status`. Since you have modified your README file, you should see `README.md` highlighted in red:
 
-    ![git status](../images/01-status.png)
+    ![git status](../01-status.png)
 
 3. Next, **stage your changes** using the command:
     ```bash
@@ -86,7 +86,8 @@ Keep your terminal open for the next part of this lab.
 ## Part 3: Add and commit a new file
 1. In your text editor, create a new file (File->New) and save it **in your repository** with the filename `answer.md` (exactly as written, all lowercase). Make sure it **does not** save with the extension `.txt` by selecting "all files" instead of "text document" in the drop-down box next to "Save as Type".
 
-    ![Save as](../images/01-save-as.png)
+    ![Save as](../
+    01-save-as.png)
 
 2. In your new file and your **own words**, give one reason why git is a useful tool for programmers. Remember to save your file when you're done.
 3. As in part 2, use `git add answer.md` followed by `git commit` to commit your new file with a *useful* commit message.
