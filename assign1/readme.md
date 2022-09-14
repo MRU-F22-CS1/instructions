@@ -1,10 +1,5 @@
----
-title: Assignment 1
-topic: Algorithms
-date: September 12, 2022
-deadline: September 23, 2022, 5 PM
-weight: 5%
----
+# Assignment 1: Algorithms
+Due September 23, 2022 at 5 pm
 
 ## Objectives
 - Build problem solving skills.
