@@ -54,22 +54,22 @@ Keep your terminal open for the next part of this lab.
 
     where `<url>` is the URL you copied in the previous step (without the `<>`). To paste into Git Bash, either right click or press shift+insert (the standard Ctrl+C/Ctrl+V commands will not work). You can also drag and drop the URL with your mouse. Press enter to execute the command.
 
-    Git Bash will prompt you to log in to GitHub to authenticate your username. You only need to do this once for each computer you use. If all goes well, the clone command will execute and download a README.md file into a new folder with the same name as your assignment repository. If you are on a Mac, you will need to generate an [access token](#macos-github-token).
+    Git Bash will prompt you to log in to GitHub to authenticate your username. You only need to do this once for each computer you use. If all goes well, the clone command will execute and download a starter.txt file into a new folder with the same name as your assignment repository. If you are on a Mac, you will need to generate an [access token](#macos-github-token).
 
 5. Change into the directory you just cloned by typing `cd <repo name>`. Hit enter to execute the command. You are now working in your git repo and can check your status, commit changes, and push/pull changes to/from GitHub. **You must be "in" this folder for git commands to work**.
 
 ## Part 2: Make and commit changes
-1. Open the repo you just cloned in Windows explorer or macOS Finder. Right click on the `.txt` file and open it with a text editor such as Notepad, Notepad++, or TextEdit. Enter your name where indicated. Make sure to **save the file** when you're done.
+1. Open the repo you just cloned in Windows explorer or macOS Finder. Right click on `starter.txt` and open it with a text editor such as Notepad, Notepad++, or TextEdit. Enter your name where indicated. Make sure to **save the file** when you're done.
 
-2. Go back to your terminal and check out the **status** of your current directory with the command `git status`. Since you have modified your starter file, you should see the `.md` file highlighted in red (it is not necessarily named README):
+2. Go back to your terminal and check out the **status** of your current directory with the command `git status`. Since you have modified your starter file, you should see `starter.txt` highlighted in red:
 
-    ![git status](01-status.png)
+    ![git status](01-status-txt.png)
 
 3. Next, **stage your changes** using the command:
     ```bash
-    git add <filename>.md
+    git add starter.txt
     ```
-    Remember that you can always use tab completion to type filenames faster. Check your status again - this time the `.md` file should be listed under "Changes to be committed".
+    Remember that you can always use tab completion to type filenames faster. Check your status again - this time the `starter.txt` file should be listed under "Changes to be committed".
 
 4. **Commit** the staged changes with:
     ```bash
