@@ -36,7 +36,7 @@ while user provides a positive number
     then
         set large = number
     otherwise
-        if numer < small
+        if number < small
         then
             set small = number
     
