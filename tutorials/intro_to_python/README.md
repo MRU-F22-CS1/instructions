@@ -16,7 +16,7 @@ The goals of this lab are to:
 4. Get familiar with the three main windows in VS Code: the text editor, the side bar, and the integrated terminal.
 
 ## Hello, world!
-1. Create a new empty file named `hello.py` (File -> New Text File, or keyboard shortcut Ctrl+N).
+1. Create a new empty file by selecting File -> New Text File, then clicking on "New Text File" or "New Python File". Then, go to the File menu and select "Save As". Name your file `hello.py`.
 2. Run your code! There are (at least) three different ways - try them all and see what you like best:
    1. From the integrated terminal, type the command `python hello.py` (windows), or `python3 hello.py` if you are on mac/linux and press enter.
    2. Press the triangle "play button" at the top right of the VS Code editor.
