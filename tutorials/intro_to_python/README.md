@@ -22,7 +22,7 @@ The goals of this lab are to:
    2. Press the triangle "play button" at the top right of the VS Code editor.
    3. Press `Ctrl + F5` on your keyboard.
     Running the code should do nothing, but if there is an error, tell your instructor.
-3. Add Python code so that when you run hello.py again, you see the following:
+3. In the text editor with `hello.py` open, add Python code so that when you run hello.py again, you see the following:
     ```plaintext
     Hello, world!
     ```
