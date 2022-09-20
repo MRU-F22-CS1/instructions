@@ -40,7 +40,7 @@ The goals of this lab are to:
 
 ## Debugging
 
-1. Download the file [fix_me.py](fix_me.py) by right-clicking and selecting "Save Link As". Save it to your working directory, open in VS Code, and run it with the Python command. What kind of error occurs?
+1. Download the file [fix_me.py](https://raw.githubusercontent.com/MRU-F22-CS1/instructions/main/tutorials/intro_to_python/fix_me.py) by right-clicking and selecting "Save Link As". Save it to your working directory, open in VS Code, and run it with the Python command. What kind of error occurs?
 2. Fix the code so that it prints out your name, your age in years, and your age in months.
 3. Where indicated, uncomment the code by deleting the `#` at the start of each line. You can also highlight all three lines and use the keyboard shortcut Ctrl+/ to toggle comments. Run the code again to see what happens.
 4. Fix the code so that it prints out your year and program.
