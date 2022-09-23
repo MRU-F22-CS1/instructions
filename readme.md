@@ -3,9 +3,10 @@
 Instructions will be released as they are developed.
 
 ## Assignment Submission Summary
-Assignments are submitted in two parts:
-1. Push your changes to GitHub.
-2. Verify that your changes are showing on GitHub, then copy and paste the URL into the assignment text box on D2L.
+Assignment submission requires 3 steps:
+1. you **push** your changes to GitHub, then
+2. you **verify** your changes are now on GitHub, then
+3. you **copy/paste** the URL of your GitHub repo into a D2L text box
 
 ## Git and GitHub Summary
 Words in `<brackets>` are just placeholders - do not type the `<>`.
@@ -14,13 +15,13 @@ Words in `<brackets>` are just placeholders - do not type the `<>`.
 2. On your computer, run the command `git clone <url>`, where `<url>` is your assignment URL (do not type the `<>`).
 
 ### Working on an assignment
-3. Make sure you are working in your assignment directory, either through Git Bash or VS Code's integrated terminal.
-4. Pull changes from GitHub, just in case:
+1. Make sure your terminal (Git Bash or VS Code's integrated terminal) **working directory** is the same as your assignment directory.
+2. Pull changes from GitHub, just in case:
    ```
    git pull
    ```
-5. Make edits to your text file(s). Don't forget to save changes!
-6. Add/commit/push changes:
+3. Make edits to your text file(s). Don't forget to save changes!
+4. Add/commit/push changes:
    1. First, add the file(s) you want to commit to the staging area:
         ```
         git add <filename>
@@ -36,9 +37,9 @@ Words in `<brackets>` are just placeholders - do not type the `<>`.
 > You can add/commit/push as many times as you like up until you submit your assignment
 
 ### Final submission
-7. When you are happy with the state of your code, add/commit/push one last time and go to your assignment repository URL. You can find this by clicking on the "GitHub Classroom link" for the assignment in D2L, or from the GitHub homepage.
-8. Double check that the last commit on GitHub is the last one you made on your computer.
-9. Copy and paste the assignment repository URL into the D2L assignment text box. This is your signal to your instructor that you are done the assignment. It should look something like:
+1. When you are happy with the state of your code, add/commit/push one last time and go to your assignment repository URL. You can find this from the GitHub homepage after logging in.
+2. Double check that the last commit on GitHub is the last one you made on your computer.
+3. Copy and paste the assignment repository URL into the D2L assignment text box. This is your signal to your instructor that you are done the assignment. It should look something like:
     ```
     https://github.com/MRU-F22-CS1/assign-####-<github username>
     ```
@@ -56,6 +57,8 @@ Make sure that you have done all of the following:
  4. `git push`.
 
  If you still aren't seeing your changes on GitHub, make sure that you don't accidentally have multiple copies of your repo on your local computer. It's easy to accidentally edit one copy while git bash is open in another.
+
+ And if you **still** still aren't seeing your changes, get in touch with an IA or your instructor.
 
 ### git commit opened a weird looking window
 If you forget the `-m` flag and just execute the command `git commit`, git will launch a text editor. By default, this is a command-line editor called [vim](https://www.vim.org/). Command line editors are really useful and worth learning, but if you want to go back to where you were, do the following:
