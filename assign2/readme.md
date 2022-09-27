@@ -1,10 +1,5 @@
----
-title: Assignment 2
-topic: Input, Processing, and Output
-date: September 26, 2022
-deadline: October 7, 2022, 5 PM
-weight: 5%
----
+# Assignment 2: Input, Processing, and Output
+Due on October 7, 2022, 5 PM
 
 # Objectives:
 Upon completion of this assignment, students will have had the opportunity to:
