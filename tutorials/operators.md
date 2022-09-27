@@ -36,6 +36,11 @@ Next, try the following to test out the new operators `//` and `%`
 
 On a computer (one per group), open up your terminal (Git Bash on Windows or Terminal on a Mac) and launch the Python interactive shell with either `python -i` or `python3 -i` on a Mac. Check your results. Were your calculations correct?
 
+> Sometimes Git Bash will launch the Windows store instead of the interactive Python terminal. If this happens, you can try the following command:
+    ```
+    winpty python.exe
+    ```
+
 ## Working with Variables
 Given the following variable definitions: 
 
