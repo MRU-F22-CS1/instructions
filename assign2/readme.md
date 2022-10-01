@@ -184,11 +184,11 @@ You may push changes to GitHub any time up until the assignment deadline for ful
 
 Assignment submission requires 3 steps:
 
-1. you push your changes to GitHub, then
-1. you verify your changes are now on GitHub, then
-1. you copy/paste the URL of your GitHub repo into a D2L text box
+1. you **push** your changes to GitHub, then
+1. you **verify** your changes are now on GitHub, then
+1. you **copy/paste the URL** of your GitHub repo into a D2L text box<sup>1</sup>
 
-*Note:* Only the file committed at the D2L submission time/date stamp will be marked. Further changes to the repo will **not** be graded.*
+<sup>1</sup>*Note:* Only the file committed at the D2L submission time/date stamp will be marked. Further changes to the repo will **not** be graded.
 
 ***
 # Marking Scheme
