@@ -1,7 +1,7 @@
 # Assignment 2: Input, Processing, and Output
 Due on October 7, 2022, 5 PM
 
-# Objectives:
+## Objectives:
 Upon completion of this assignment, students will have had the opportunity to:
 - Gain experience problem solving and debugging.
 - Practice designing and expressing an algorithm as code that includes:
@@ -10,27 +10,31 @@ Upon completion of this assignment, students will have had the opportunity to:
   - mathematical operators, `math` module functions, and data types,
   - output with `fStrings`. 
   
-# Outcomes:
+## Outcomes:
 Done **individually or in pairs**, this assignment consists of **two products**:
 
-1. A **desk trace**, a text document that shows the values of all intermediate calculations required to solve the problem. In order to help you debug your code, we are asking you to work out (with a calculator) and write out the intermediate values for each step. *You are encouraged to show a draft of your trace to your instructor during the week before the assignment's due deadline.*
+1. A **desk trace**, a text document that shows the values of all intermediate calculations required to solve the problem. In order to help you debug your code (see [Why Trace?](#why-trace)), we are asking you to work out (with a calculator) and write out the intermediate values for each step. *You are encouraged to show a draft of your trace to your instructor during the week before the assignment's due deadline.*
 1. The **source code**: a Python algorithm that can find the distance between two Albertan locations where each is described by its latitude and longitude coordinates.
+
+### Why Trace?
+
+This algorithm has multiple steps and the solution path requires something like 20 intermediate values or variables. By working out those intermediate values by hand (and recording them as one of the assignment's two products) you will have access to the correct values your code needs to produce. This will make debugging your code much easier.
 
 ***
 
-# Introduction 
+## Introduction 
 The following problem is illustrative of the kind of computational problem  a program can solve. There are many required variables and a number of steps (and sub-steps). Be sure to use self-documenting variable names and consider using comments to describe your algorithm's steps. 
 
 Because we are focussing on demonstrating effective programming techniques, we have simplified the problem from reality. Your ultimate answer may not be exactly the same as an online provided solution - though it should be within 5% or so.
 
-# The problem:
+## The problem:
 <p align="center"> 
   <b>Develop a program that can find the distance between two Albertan locations where the first location is preset and the second comes from the user.<br>Then display those locations in D:M:S format and the distance found.</b>
   </p>
 
 *Note:*  Since both longitude coordinates will be from the same hemisphere, we can simplify this problem and treat all coordinate values as positive numbers.
 
-## The first location - The Homage statue on campus:
+### The first location - The Homage statue on campus:
 
 ![HomageStatue](Homage.jpeg "Image from https://everydaytourist.ca/calgary-visitor-information/2015/2/7/dream-calgarys-best-kept-public-art-secret") [1]
 
@@ -38,7 +42,7 @@ Because we are focussing on demonstrating effective programming techniques, we h
 >
 > longitude: 114.133691
 
-## The second location- any location in Alberta **you** choose.
+### The second location- any location in Alberta **you** choose.
 
 You can use an online resource like Google Maps to find the latitude and longitude of a location, in decimal degrees. For example, Chinook mall is located at:
 
@@ -50,7 +54,7 @@ You can use an online resource like Google Maps to find the latitude and longitu
 
 *Note*: Again, we are using positive values for longitudes.
 
-# Research efforts.
+## Research efforts.
 
 Although background information is presented here, a good problem solver knows to conduct their own research. If you don't understand some aspect of the material, consult with your partner and/or look it up. You will find solutions and online calculators for this type of problem on the internet, but ***you must ALWAYS cite the sources of your ideas.*** 
 
@@ -64,7 +68,7 @@ Citing can be done by adding comments like these to your code:
 - There are published solutions that use programming structures and techniques we have not *yet* covered in our class. The purpose of this assignment is to assess your understanding of the course ideas. So, **you may ONLY use programming structures AND techniques that have been covered in class. You may NOT use `modules` other than the `math` module.** 
 - ***Using programming concepts that we have not covered in the course, OR not honestly citing the idea sources could result in a zero grade for the assignment.***
 
-# The Haversine Formulae:
+## The Haversine Formulae:
 
 To solve for the distance between the two points, your solution **must use the following articulation of the Haversine formula [3]**, a multi-step calculation that finds the approximate distance *as the crow flies*, i.e. ignoring hills, valleys and other vertical displacements.
 
@@ -91,7 +95,6 @@ Where:
 - $radius_p$ = the Earth's polar radius which is 6,356,752 m
 
 
-
 *Notes:*
 - The Haversine formula approximates the distance by acknowledging the Earth is not perfectly flat nor a perfect sphere; in fact the Earth is better described as "an 'obloid spheroid' (an ellipse rotated around its minor axis) with its larger radius at the equator than at the poles"[4]
 - Carry all the decimal places for intermediate calculations and only display the final answer as indicated below in [Programming Requirements](#programming-requirements).
@@ -102,7 +105,7 @@ Where:
   -  Also be aware, `= math.atan2` is different from `atan`. Make sure to use `atan2`!
 -  The distance produced will be in the same units as those used to determine the weighted average Earth radius. You will have to convert it to km.
 
-# Coordinate conversion from decimal notation to D:M:S:
+## Coordinate conversion from decimal notation to D:M:S:
 Traditionally latitude and longitude coordinates are expressed in degrees, minutes and seconds but to perform calculuations, the coordinates start out as decimal degrees notation.
 
 For the program's solution statement, convert both coordinate's decimal degree values to degrees, minutes and seconds.
@@ -123,7 +126,7 @@ is also
 
 *** 
 
-# Programming requirements
+## Programming requirements
 
 Starting with the supplied 'haversine.py' file, write a program that:
 1. Asks the user for the latitude and longitude of a location in decimal degrees.
@@ -132,12 +135,8 @@ Starting with the supplied 'haversine.py' file, write a program that:
 1. Converts both location coordinates into D:M:S format. Converts the distance to kilometers.
 1. Displays both location coordinates in D:M:S notation (seconds displayed to 2 decimal places), and the distance between rounded to the tenth of a kilometer - km with one decimal place. <br>Be sure to use `fStrings` and show the symbols for degrees, minutes and seconds in the solution statement.
 
-# Why Trace?
+## Further Guidance
 
-This algorithm has multiple steps and the solution path requires something like 20 intermediate values or variables. By working out those intermediate values by hand (and recording them as one of the assignment's two products) you will have access to the correct values your code needs to produce. This will make debugging your code much easier.
-
-
-*Notes:*
 - The distance between the Homage statue and the Chinook Mall is about 4.5 km. You can confirm your trace and/or your program using those values to test.
 - You may ONLY use programming structures AND techniques that have been covered in class. 
 - You may use the `math` module but no others.
@@ -156,7 +155,7 @@ This algorithm has multiple steps and the solution path requires something like 
 
 ***
 
-# Starter files
+## Starter files
 
 Follow the instructor-provided URL & accept the GitHub Classroom assignment. That new repo will contain two files:
 - haversine.py
@@ -166,7 +165,7 @@ Follow the instructor-provided URL & accept the GitHub Classroom assignment. Tha
 
 ***
 
-# Working on the assignment.
+## Working on the assignment.
 
 Recall that the *first time* you want to work on this assignment on a new computer, you will have to clone your online repo. 
 
@@ -178,7 +177,7 @@ Then, like your process working on assignment 1, continue to `git add`, `git com
 
 ***
 
-# Submission
+## Submission
 
 You may push changes to GitHub any time up until the assignment deadline for full marks.
 
@@ -190,7 +189,8 @@ Assignment submission requires 3 steps:
 
 <sup>1</sup>*Note:* Only the file committed at the D2L submission time/date stamp will be marked. Further changes to the repo will **not** be graded.
 
-***
+---
+
 # Marking Scheme
 
 Tracing (each part out of 4 = 20):
