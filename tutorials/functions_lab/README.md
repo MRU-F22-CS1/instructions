@@ -3,7 +3,7 @@
 ## Part 1: Tracing and debugging
 You and a friend are developing a journalling app to keep track of your hiking adventures. Your friend started writing the code, so you decide to read what they've got so far to make sure you understand how it works.
 
-1. Open the file named `hiking_journal.py`
+1. Download and open [hiking_journal.py](https://raw.githubusercontent.com/MRU-F22-CS1/instructions/main/tutorials/functions_lab/hiking_journal.py)
 2. Trace the code **manually** and write down your predicted output.
 3. Run the code. Did it produce what you expected?
 4. Try changing the function call to `journal_entry(10.5, "July 12, 2022", "I saw a beautiful lake.")`. What happens?
@@ -14,7 +14,7 @@ You and a friend are developing a journalling app to keep track of your hiking a
 ## Part 2: Writing functions
 In this exercise, you will use Python's random number generator to implement a simple dice game. The score for each player is calculated by rolling two dice and adding them together, then either adding, subtracting, or ignoring the length of their name. 
 
-1. Open the file `game.py`. At the very top, you'll see this line:
+1. Download and open [game.py](https://raw.githubusercontent.com/MRU-F22-CS1/instructions/main/tutorials/functions_lab/game.py). At the very top, you'll see this line:
    
    ```python
    from random import randint
