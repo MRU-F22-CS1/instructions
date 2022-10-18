@@ -1,4 +1,5 @@
 # Assignment 3: Functions and decisions
+Due on November 10, 2022, 5 PM. Note that this is a Thursday, not a Friday, due to Remembrance day.
 
 ## Video Overview
 
