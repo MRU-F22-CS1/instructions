@@ -34,7 +34,7 @@ This tutorial is intended to get you used to working with Boolean expressions an
     7. `not z or (y or not x)`
     8. `x or x and y`
 
-3. Match each Boolean expression in the left (numbered) column with the equivalent expression in the right (lettered) column:
+3. Match each Boolean expression in the left (numbered) column with the equivalent expression in the right (lettered) column. Assume all variables are of type `int`.
 
     |     |                                  |     |                     |
     | --- | -------------------------------- | --- | ------------------- |
