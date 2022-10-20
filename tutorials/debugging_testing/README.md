@@ -9,7 +9,7 @@ Unfortunately, your coworker has just won the lottery and quit, leaving you with
 
 Projectile kinematics says that for a projectile launched on a flat surface, the flight-time (time in the air, until the projectile lands) satisfies the quadratic equation:
 
-> ½ *g t*<sup>2</sup> + *v* sin(*a*) *t* = 0
+> -½ *g t*<sup>2</sup> + *v* sin(*a*) *t* = 0
 >  
 > where,  <br>
 > *t* is the flight time in seconds <br>
