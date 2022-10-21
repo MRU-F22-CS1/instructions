@@ -50,7 +50,7 @@ compute the horizontal distance the projectile will travel
 """
 
 temp1 = velocity * sin(angle)
-t = temp1 / (0.5 * g)
+t = temp1 / 0.5 * g
 x = velocity * cos(angle) * t
 
 return x
