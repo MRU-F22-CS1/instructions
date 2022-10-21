@@ -9,7 +9,7 @@ Unfortunately, your coworker has just won the lottery and quit, leaving you with
 
 Projectile kinematics says that for a projectile launched on a flat surface, the flight-time (time in the air, until the projectile lands) satisfies the quadratic equation:
 
-> ½ *g t*<sup>2</sup> + *v* sin(*a*) *t* = 0
+> -½ *g t*<sup>2</sup> + *v* sin(*a*) *t* = 0
 >  
 > where,  <br>
 > *t* is the flight time in seconds <br>
@@ -17,7 +17,9 @@ Projectile kinematics says that for a projectile launched on a flat surface, the
 > *v* is the velocity of launch in m/s  <br>
 > *g* is acceleration due to gravity (9.81 m/s<sup>2</sup> on earth) 
 
-Given velocity *v* and angle *a*, this equation can be solved for *t* using the [quadratic formula](https://en.wikipedia.org/wiki/Quadratic_formula).
+Given velocity *v* and angle *a*, this equation can be solved for *t*, like this:
+
+> $$t = \frac{v\sin(a)}{\frac{1}{2}g}$$
 
 Once you have a value for _t_, you can find the horizontal distance travelled by:
 
@@ -29,7 +31,7 @@ Once you have a value for _t_, you can find the horizontal distance travelled by
 > *a* is the angle of launch  <br>
 > *t* is the flight time in seconds
 
-Your coworker has written the function below to compute horizontal distance travelled by a projectile. The intent of the function is to accept launch angle and velocity as parameters, use the [quadratic formula](https://en.wikipedia.org/wiki/Quadratic_formula) to compute *t*, and then use *t* to compute (and return) *x* using the equation above.
+Your coworker has written the function below to compute horizontal distance travelled by a projectile. The intent of the function is to accept launch angle and velocity as parameters, and use the equations above to compute *t* and compute (and return) *x*.
 
 ```python
 # this next line gives access to cos, sin, and sqrt (square-root) functions
@@ -47,13 +49,8 @@ compute the horizontal distance the projectile will travel
 :return: distance travelled in meters
 """
 
-# solve quadratic formula for positive t, the flight time
-a = -0.5 * g
-b = velocity * sin(angle)
-c = 0
-t = (-b - sqrt(b ** 2 - 4 * a * c)) / a * 2
-
-# calculate the horizontal distance travelled during time t
+temp1 = velocity * sin(angle)
+t = temp1 / (0.5 * g)
 x = velocity * cos(angle) * t
 
 return x
