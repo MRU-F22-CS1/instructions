@@ -69,7 +69,7 @@ _Note: The 80° and 65° trajectories don't exactly hit the 500 m mark - but the
 1. Paste the code above into your IDE. 
 2. Do some initial detective work by reading through the code and its comments:
     - [ ] Do you see any mistakes in the code right away?
-    - [ ] Is the function using the quadratic formula and horizontal distance formula as intended?
+    - [ ] Is the function using the formulas as intended?
     - [ ] Does the IDE highlight any errors that would prevent the code from running?
 
 3. Use the three angle-velocity pairs in Figure 1 above as test inputs to the function (read the function comments carefully & ensure you pass in appropriate values). Is the output close enough (say within 3m) to the expected 500 m?
