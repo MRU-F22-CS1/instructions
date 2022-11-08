@@ -32,7 +32,7 @@ main()
 
 The `sum_all` function contains a loop to read input from a user and calculate the running total. The loop terminates when a negative number is entered, and the final sum is printed. This program works as described.
 
-1. Trace the program with some sample data (input 1, 2, 3, -1). What is the expected output?
+1. Trace the program with some sample data (input 1, 2, 3, -1). What is the expected output? Run the program to see if the result matches your trace.
 
 2. Re-run the program and input -1 as the first input. What is the result? Is this what you would expect?
 
@@ -43,6 +43,8 @@ The `sum_all` function contains a loop to read input from a user and calculate t
 4. Error: Forgetting the internal read
 
     Return the program to its original state and run it to make sure that it works. Now, comment out the line indicated as the internal read and run the program program. What **kind** of error occurs?
+
+> Tip: to stop an infinite loop, click on the terminal pane in VS Code and enter the command `Ctrl + C` (or `⌘ + .` on a Mac).
 
 ## Sentinel loop: Guess again!
 Create a new Python script to write a guessing game. This program should:
