@@ -72,6 +72,7 @@ Hints:
   - what is the **stop condition**?
   - how should the condition be **initialized** and **updated**?
 - You will also need to initialize a counter (accumulator) and increment it each time the loop executes
+- If you're not sure where to begin, we wrote a guessing game in [Lecture 10](https://github.com/MRU-F22-CS1/sample-code-curtis/blob/651f1474822e9689038363d750101ffcca50fdd7/lecture10/slide_16.py). This time we're adding repetition.
 
 ## Counted Loops
 
