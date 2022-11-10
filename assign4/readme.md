@@ -1,6 +1,6 @@
 # Assignment 4: Comprehensive Program
 
-**Due: Friday, December 2nd, 2023 @ 5:00 PM**
+**Due: Friday, December 2nd, 2022 @ 5:00 PM**
 
 **Weight: 10% of your final grade (9% for the coding portion and 1% for the written portion)**
 
