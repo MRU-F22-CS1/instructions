@@ -30,7 +30,7 @@ Create a program that:
 This is a hefty challenge! You will need to:
 - Independently learn how the scoring of each material works by reading the game rules.
 - Read text representing a building from a file, storing it as a list of lists.
-- Create functions that calculate the material score for a given building, for all four types of materials. Decision and repetition structures will be used here for sure.
+- Create functions that calculate the material scores for a given building, for all four types of materials. Decision and repetition structures will be used here for sure.
 - Write results with a specified format to another file. 
 
 ## Initial Legwork
