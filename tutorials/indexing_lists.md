@@ -48,7 +48,11 @@ Additionally, there are the following list operators:
 
     Write a new function that takes your course list as an argument and returns the course with the **highest course code**. For this example, the return value of your function should be `"MGMT 3210"`.
 
-    > Hint: you will need the string `.split` method in addition to casting to an integer to compare course numbers.
+    **Edit**: string splitting was moved to Wednesday's lecture, so this may not make much sense yet. For a given index position `i`, you can get the **integer value** of the course code using the following syntax:
+    ```python
+    components = courses[i].split()
+    code = int(components[1])
+    ```
 
 ## Extra challenges
 1. Someone has written the following function to remove all courses with a given prefix. However, there's a bug in it. Try to answer the following questions by hand.
