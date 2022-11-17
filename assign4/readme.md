@@ -43,7 +43,7 @@ So the first order of business is for you and your brain to get familiar with th
 
 1. The rules are [available here on the Zman site](https://images.zmangames.com/filer_public/81/0a/810a04df-26f8-4b01-a2de-b561719109d2/blueprints_rules.pdf). You'll be ecstatic to know there are 5 **very** brief paragraphs regarding material scoring at the top of page 4. These rules are super short. I'm serious.
 
-2. To help cement the scoring process in your noodle, you might also look around the YouTube for videos on how to play the game. A number of them spend a few minutes covering scoring. One example is [this video by Ryan Metzler](https://youtu.be/ozGAhgBAbCo?t=314), which has a less-than-2-minute-long example from the 5:14 mark to the 7:07 mark.
+2. To help cement the scoring process in your noodle, you might also look around the YouTube for videos on how to play the game. A number of them spend a few minutes covering scoring. One example is [this video by Ryan Metzler](https://youtu.be/ozGAhgBAbCo?t=314), which has a less-than-2-minute-long example [from the 5:14 mark](https://youtu.be/ozGAhgBAbCo?t=314) to the [7:07 mark](https://youtu.be/ozGAhgBAbCo?t=427).
 
     _You can ignore the bit Ryan says about the 6 points you get for "following your blueprint". That's not going to be part of this assignment._
 
@@ -74,10 +74,6 @@ Say we have the following building with 3 stacks:
 
 _**Comment**  
 Although the real game comes with really cool transparent dice for the glass material, we're representing it with a plain old white dice here._
-
-![JP in awe of a clear die](./images/eyes-of-wonder.png)
-
-_Look at that thing! Sooooo beautiful....._
 
 We can see the numbers on top of the dice if we use a little antigravity wizardry here:
 
