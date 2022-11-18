@@ -203,24 +203,25 @@ W2|W1|--
 ---
 
 ## Written Requirement
+ 
+In this assignment, you are given a lot of freedom. One place you are **not** given freedom is in the format of the building files.
 
-In addition to your code, you will also need to answer a written question for this assignment, which will be placed here (in this document) on November 18th before 5PM.
+For this written portion of the assignment, please complete the following:
 
-You will need to put your answer to this question in the `written_requirement.txt` file.
+1. Describe **two challenges** that the format of the building file presented. **[4 marks]**
+2. Briefly describe **an alternative file format** that would not pose the challenges you provided in `1`. **[2 marks]**
+3. Briefly describe a **different challenge** that your alternative file format would pose. **[1 mark]**
 
-### Written Question  
-
-_The written question will be placed here on November 18th._
+Put your answers to the questions in the `written_requirement.txt` file.
 
 ---
 
 ## Grading
 
-The code portion of this assignment is worth **9% of your final grade** and is marked on a grade ladder, like the ones you saw in assignment three and exercise four. 
+The code portion of this assignment is worth **9% of your final grade** and is marked on a grade ladder, like the ones you saw in assignment three and exercise four. Details follow below.
 
-The written portion is worth **1% of your final grade** and is marked on a scale from 0 to 3.
+The written portion is worth **1% of your final grade** and is out of 7 marks, as indicated in [that section](#written-requirement).
 
-Here are the details:
 
 ### The Coding Portion Grade Ladder 
 
@@ -283,31 +284,6 @@ _For example, if your submission fulfills the A Level requirements, but your cod
 _Another example: if your submission fulfills the C Level requirements, but suffers from the same kinds of problems as in the previous example, your C might become a C-...or even a D+._
 
 **Note that, unlike assignment 3, where you were given the opportunity to improve your mark by having "impressively expressive" code, here we're assuming that should be the default!**
-
-### The Written Portion 3-Point Scale
-
-Details will be placed here when the written question is released on November 18th.
-
-#### 0 Points
-
-You will get 0 points if:
-
-- [ ] nothing is submitted, or
-- [ ] some of your submitted work is plagiarized or copied from another student or source.
-
-#### 1 Point
-
-You will get 1 point if:
-
-
-#### 2 Points
-
-You will get 2 points if:
-
-
-#### 3 Points
-
-You will get 3 points if:
 
 ---
 
