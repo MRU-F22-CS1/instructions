@@ -2,7 +2,7 @@
 The following exercise is intended to give you practice dealing with data files and encountering common errors.
 
 ## Trick or Treat!
-The file [trick_or_treaters.txt](https://raw.githubusercontent.com/MRU-F22-CS1/instructions/main/tutorials/file_reading/trick_or_treaters.txt) (right click and "Save As" to download) contains counts of numbers of trick or treaters for 100 households. Each line in the file is a single integer.
+The file [trick_or_treaters.txt](https://raw.githubusercontent.com/MRU-F22-CS1/instructions/main/tutorials/file_reading/trick_or_treaters.txt) contains counts of numbers of trick or treaters for 100 households. Right click the link, select "Save Link As", then move it from your downloads folder to your current working directory (the folder you have open in VS Code). Each line in the file is a single integer.
 
 1. Write a Python function to read the trick or treaters data into a **list of integers**. Reading a file has three steps:
    1. Open the file object
