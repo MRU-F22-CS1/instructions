@@ -2,13 +2,14 @@
 The following exercise is intended to give you practice dealing with data files and encountering common errors.
 
 ## Trick or Treat!
-The file `trick_or_treaters.txt` contains counts of numbers of trick or treaters for 100 households. Each line in the file is a single integer.
+The file [trick_or_treaters.txt](https://raw.githubusercontent.com/MRU-F22-CS1/instructions/main/tutorials/file_reading/trick_or_treaters.txt) (right click and "Save As" to download) contains counts of numbers of trick or treaters for 100 households. Each line in the file is a single integer.
 
 1. Write a Python function to read the trick or treaters data into a **list of integers**. Reading a file has three steps:
    1. Open the file object
    2. Read the file and do processing
    3. Close the file object
-   Your function should take the file name as an **argument**, but for testing purposes you can hardcode the filename in `main`.
+   
+   Your function should take the file name as an **argument**, but for testing purposes you can hardcode the filename in `main`. Hint: check out the [sample code](https://github.com/MRU-F22-CS1/sample-code-curtis/tree/main/lecture19) from lecture 19.
    > Remember that the file path is relative to your **current working directory**
 2. Now that you have the list of trick-or-treat data, you can do some calculations with it. Pick **one of the following** and write a function to find:
    1. The **highest** number of trick-or-treaters OR
