@@ -265,7 +265,7 @@ A submission will be considered A level work if:
 A submission will be considered A+ level work if:
 
 - [ ] All requirements for the A level are met, and
-- [ ] The application can process a valid `building.txt` file and produce correct scores **all** materials.
+- [ ] The application can process a valid `building.txt` file and produce correct scores for **all** materials.
 
 
 #### Grade Adjustments For Code Expressiveness
