@@ -6,7 +6,7 @@
 
 You may do this assignment individually or in pairs.
 
-## UPDATED LATE POLICY, EFFECTIVE IMMEDIATELY
+## ⚠⚠⚠ UPDATED LATE POLICY, EFFECTIVE IMMEDIATELY ⚠⚠⚠
 This assignment will be considered on-time if submitted by **23:59 on Friday, December 2nd**.
 
 After that time, the following late penalties will be assessed:
