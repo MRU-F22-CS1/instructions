@@ -1,10 +1,20 @@
 # Assignment 4: Comprehensive Program
 
-**Due: Friday, December 2nd, 2022 @ 5:00 PM**
+**Due: Friday, December 2nd, 2022 @ ~~5:00 PM~~ time changed - see below**
 
 **Weight: 10% of your final grade (9% for the coding portion and 1% for the written portion)**
 
 You may do this assignment individually or in pairs.
+
+## <span style="color:#FF00FF">UPDATED LATE POLICY, EFFECTIVE IMMEDIATELY</span>
+<span style="color:#FF00FF">This assignment will be considered on-time if submitted by **23:59 on Friday, December 2nd**.</span>
+
+<span style="color:#FF00FF">After that time, the following late penalties will be assessed:</span>
+- <span style="color:#FF00FF">10% if submitted by **23:59 on Sunday, December 4th**</span>
+- <span style="color:#FF00FF">20% if submitted by **23:59 on Monday, December 5th**</span>
+- <span style="color:#FF00FF">30% if submitted by **23:59 on Tuesday, December 6th**</span>
+- <span style="color:#FF00FF">etc</span>
+
 
 ## Background
 
