@@ -25,14 +25,13 @@ Just to be clear: to get a C, your `scoring-results.txt` contents do NOT have to
 
 `b-level-test-1.txt`
 
-> Only two rows? 
-> Wood and Stone are zeros!
+> Only two rows? <br>Wood and Stone are zeros!
 
 ---
 
 `b-level-test-2.txt`
 
-> With Glass dice on mutiple rows, we'll need to total up a row **and** then add all the rows for the ultimate Glass score.
+> With Glass dice on mutiple rows, we'll need to total up a row <br>**and** then add all the rows for the ultimate Glass score.
 
 ---
 
@@ -40,3 +39,12 @@ Just to be clear: to get a C, your `scoring-results.txt` contents do NOT have to
 
 > Stone in multiple levels; recall, 8 points for a Stone die on the 4th (or higher) level of the building.
 
+---
+
+`word-test-1.txt`
+
+> Look at that Wood die all by its lonesome:
+> - not(touching) any other dice, but...
+> - in column 2 (3rd) when 2+1 would be `IndexError`
+
+---
