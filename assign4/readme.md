@@ -6,14 +6,14 @@
 
 You may do this assignment individually or in pairs.
 
-## <span style="color:#FF00FF">UPDATED LATE POLICY, EFFECTIVE IMMEDIATELY</span>
-<span style="color:#FF00FF">This assignment will be considered on-time if submitted by **23:59 on Friday, December 2nd**.</span>
+## UPDATED LATE POLICY, EFFECTIVE IMMEDIATELY
+This assignment will be considered on-time if submitted by **23:59 on Friday, December 2nd**.
 
-<span style="color:#FF00FF">After that time, the following late penalties will be assessed:</span>
-- <span style="color:#FF00FF">10% if submitted by **23:59 on Sunday, December 4th**</span>
-- <span style="color:#FF00FF">20% if submitted by **23:59 on Monday, December 5th**</span>
-- <span style="color:#FF00FF">30% if submitted by **23:59 on Tuesday, December 6th**</span>
-- <span style="color:#FF00FF">etc</span>
+After that time, the following late penalties will be assessed:
+- 10% if submitted by **23:59 on Sunday, December 4th**
+- 20% if submitted by **23:59 on Monday, December 5th**
+- 30% if submitted by **23:59 on Tuesday, December 6th**
+- etc
 
 
 ## Background
