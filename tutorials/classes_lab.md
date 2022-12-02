@@ -14,7 +14,7 @@ Create a class called `Card` to represent a playing card from a standard 52-card
 - Provide a `__str__` method that returns a text representation of the card (e.g. '3♣')
 
 ### `draw_card` function
-Copy the below `draw_card` function into your program. It returns a random Card instance. You will also need to `import random`. Note how `random.randint` and `random.choice` have been used to select a random value and suit.
+Copy the below `draw_card` function into your program. You will need to complete it so to returns a random Card instance. You will also need to `import random`. Note how `random.randint` and `random.choice` have been used to select a random value and suit.
 ```python
 def draw_card() -> Card:
     """
@@ -24,7 +24,7 @@ def draw_card() -> Card:
     """
     value = random.randint(1, 13)
     suit = random.choice('♠♥♦♣')
-    return Card(value, suit)
+    # CREATE AND RETURN A CARD INSTANCE WITH THE VALUE AND SUIT
 ```
 
 ### `Hand` class
@@ -61,7 +61,7 @@ There are many ways you could write this program, but if you like, you can use t
 for player_number in [1, 2]:
     
     # create a Hand for the player, and give them 1 card
-    hand = Hand()
+    hand = # CREATE A HAND INSTANCE HERE
     hand.add_card(draw_card())
 
     players_turn = True
