@@ -12,7 +12,7 @@ This is a comprehensive lab that incorporates pretty much every topic for the te
 
 ## Part 2: Load your gear
 1. Create a **new Python file** in the same folder as `gear.py` and import your `Gear` class.
-2. The file `gear.csv` contains a list of items and their volume. In your new file, write a function to read the contents of `gear.csv` and return a list of `Gear` items.
+2. The file [gear.csv](https://raw.githubusercontent.com/MRU-F22-CS1/instructions/main/searching_sorting/gear.csv) (right click to download) contains a list of items and their volume. In your new file, write a function to read the contents of `gear.csv` and return a list of `Gear` items.
 3. In your `main` function, call the previous function and print out the list of `Gear` to make sure it is loading correctly.
 
 ## Part 3: Search through your gear to find the largest item
@@ -27,14 +27,14 @@ Sorting algorithms are beyond the scope of this course, but if you'd like a chal
    > What return value should you use in your function definition?
 2. Implement a **sorting algorithm** to sort your gear. There are many, but one of the most straightforward is the [selection sort](https://www.geeksforgeeks.org/selection-sort/). Here's some code to get you started:
     ```python
-    for i in range(len(gear)):
+    for i in range(len(gear_list)):
         # Find the maximum element in the rest of the list
         # We need to add i to the max_pos because we cut off everything
-        # up to i with the gear[i:] slice operation
-        max_pos = your_max_func(gear[i:]) + i
+        # up to i with the gear_list[i:] slice operation
+        max_pos = your_max_func(gear_list[i:]) + i
                 
         # Swap the maximum element with the current index position
-        temp = gear[i]
+        temp = gear_list[i]
         ??? # Finish the swap!
     ```
     > Hint: earlier you implemented a maximum function (`your_max_func`, whatever you named it) that returned a `Gear` object. For this algorithm, you'll need to change it to return an **index position**.
